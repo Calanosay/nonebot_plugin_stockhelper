@@ -4,13 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="c36003eb-2075-43a4-bc36-9edc059991d6" name="变更" comment="">
-      <change afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/nonebot_plugin_stockhelper-0.1.0-py3-none-any.whl" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/dist/nonebot_plugin_stockhelper-0.1.0.tar.gz" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+    <list default="true" id="c36003eb-2075-43a4-bc36-9edc059991d6" name="变更" comment="减少了2个regex">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/nonebot_plugin_stockhelper/__init__.py" beforeDir="false" afterPath="$PROJECT_DIR$/nonebot_plugin_stockhelper/__init__.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -87,7 +82,7 @@
       <workItem from="1684468285444" duration="1115000" />
       <workItem from="1684471822967" duration="86000" />
       <workItem from="1684471913826" duration="135000" />
-      <workItem from="1684472055955" duration="129000" />
+      <workItem from="1684472055955" duration="1089000" />
     </task>
     <task id="LOCAL-00001" summary="提交">
       <created>1684467122693</created>
@@ -103,7 +98,14 @@
       <option name="project" value="LOCAL" />
       <updated>1684468312469</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="减少了2个regex">
+      <created>1684472212292</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1684472212292</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -115,6 +117,7 @@
   <component name="VcsManagerConfiguration">
     <option name="ADD_EXTERNAL_FILES_SILENTLY" value="true" />
     <MESSAGE value="提交" />
-    <option name="LAST_COMMIT_MESSAGE" value="提交" />
+    <MESSAGE value="减少了2个regex" />
+    <option name="LAST_COMMIT_MESSAGE" value="减少了2个regex" />
   </component>
 </project>
