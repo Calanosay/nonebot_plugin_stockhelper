@@ -1,5 +1,5 @@
 from datetime import date
-from nonebot.plugin import on_command,on_regex
+from nonebot.plugin import on_command,on_regex,on_command
 from nonebot.adapters.onebot.v11 import Bot, Event
 from nonebot.adapters.onebot.v11.message import Message
 from nonebot.rule import to_me
@@ -43,8 +43,8 @@ def is_num(s):  # 判断是否为数字
 
 gpjk = on_regex(r'^(监控|关注|jk)', priority=10, rule=to_me())
 show = on_regex(r'^(看股票|kgp)', priority=10, rule=to_me())
-stop = on_regex(r'^(stop)$', priority=10, rule=to_me())
-clear = on_regex("^(清空)$", permission=SUPERUSER)
+stop = on_command("stop", priority=10, rule=to_me())
+clear = on_command("清空", permission=SUPERUSER)
 
 
 @clear.handle()
