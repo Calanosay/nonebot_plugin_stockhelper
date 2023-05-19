@@ -1,0 +1,18 @@
+[tool.poetry]
+name = "nonebot_plugin_stockhelper"
+version = "0.1.0"
+description = "股票看盘助手"
+authors = ["lcy <863109569@qq.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.10"
+nonebot2 = "^2.0.0rc4"
+nonebot-adapter-onebot = "^2.2.3"
+efinance = "^0.5.0"
+asyncio = "^3.4.3"
+datetime = "^5.1"
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
