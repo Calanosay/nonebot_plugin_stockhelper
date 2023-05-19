@@ -15,7 +15,7 @@ __help__plugin_name__ = "看盘小助手"
 is_doing = {}
 flag = set()
 
-
+#
 def is_num(s):  # 判断是否为数字
     # 去除字符串两边的空格
     s = s.strip()
