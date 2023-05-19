@@ -1,6 +1,6 @@
 [tool.poetry]
 name = "nonebot_plugin_stockhelper"
-version = "0.1.0"
+version = "0.1.1"
 description = "股票看盘助手"
 authors = ["lcy <863109569@qq.com>"]
 readme = "README.md"

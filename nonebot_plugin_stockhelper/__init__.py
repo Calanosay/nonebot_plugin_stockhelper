@@ -41,8 +41,8 @@ def is_num(s):  # 判断是否为数字
     return flag
 
 
-gpjk = on_regex(r'^(监控|关注|jk)', priority=10, rule=to_me())
-show = on_regex(r'^(看股票|kgp)', priority=10, rule=to_me())
+gpjk = on_command('监控', aliases={'关注', 'jk'}, priority=10, rule=to_me())
+show = on_command('看股票', aliases={'kgp'}, priority=10, rule=to_me())
 stop = on_command("stop", priority=10, rule=to_me())
 clear = on_command("清空", permission=SUPERUSER)
 
